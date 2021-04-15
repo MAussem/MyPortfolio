@@ -15,9 +15,13 @@ code {
 .g-card-image {
   border-radius: 10px;
   width: 400px;
-  height:500px;
+  height:525px;
   background-color: #666; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, #222, #999);
+}
+
+.g-card-image:hover {
+  opacity: 0.3;
 }
 
 .g-card-info {
@@ -28,11 +32,13 @@ code {
 .g-card-title {
   font-size: 24px;
   margin: 0px;
+  color: #fff;
 }
 
 .g-card-sub-title {
   font-size: 16px;
   margin: 0px;
+  color: #fff;
 }
 
 .success-msg {

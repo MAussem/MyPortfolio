@@ -24,8 +24,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Welcome to My Portfolio',
-        subTitle: 'Custom Websites Created for You',
-        text: 'Checkout My Projects Below'
+        subTitle: 'Checkout My Projects Below',
       },
       about: {
         title: 'About Me'
@@ -47,9 +46,9 @@ class App extends React.Component {
             <Navbar.Toggle className="border-0" aria-controls="nabar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/"><strong>Home</strong></Link>
+                <Link className="nav-link" to="/about"><strong>About</strong></Link>
+                <Link className="nav-link" to="/contact"><strong>Contact</strong></Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

@@ -7,7 +7,7 @@ import BrownsLogo from '../Assets/Images/BrownsLogo.jpg';
 import MaxProfile from '../Assets/Images/MaxProfile.png';
 import flooringDepot from '../Assets/Images/flooringDepot.png';
 import Container from 'react-bootstrap/Container';
-import profile from '../Assets/Images/profile.jpg';
+import profile from '../Assets/Images/profile.png';
 
 class Carousel extends React.Component {
 
@@ -24,7 +24,7 @@ class Carousel extends React.Component {
           selected: false
         },
         {
-          id: 2,
+          id: 1,
           title: 'Flooring Depot',
           subTitle: 'Professional Service Since 1999',
           imgSrc: flooringDepot,
@@ -32,15 +32,15 @@ class Carousel extends React.Component {
           selected: false
         },
         {
-          id: 3,
+          id: 2,
           title: 'Designs by Angelika',
           subTitle: 'Interior Decorating and Design',
           imgSrc: profile,
-          link: 'https://www.flooringdepot.org/',
+          link: 'https://www.designsbyangelika.org/',
           selected: false
         },
         {
-          id: 1,
+          id: 3,
           title: 'Max Aussem Profile',
           subTitle: 'LinkedIn',
           imgSrc: MaxProfile,
@@ -53,7 +53,6 @@ class Carousel extends React.Component {
 
 
   handleCardClick = (id, card) => {
-    console.log(id);
 
     let items = [...this.state.items];
 
