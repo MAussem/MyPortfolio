@@ -36,7 +36,7 @@ class ContactPage extends React.Component {
         <Hero title={this.props.title} />
 
         <Content>
-          <Form name="Contact" action="POST" data-netlify="true">
+          <Form name="Contact" netlify>
             <Form.Group>
               <Form.Label htmlFor="full-name"><strong>Full Name</strong></Form.Label>
               <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
